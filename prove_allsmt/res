@@ -1,0 +1,12 @@
+
+( ((let (( (<= w 0))) ) false) )
+( ((let (( (<= z 0))) ) false)
+  ((let (( (<= w 0))) ) true) )
+( ((let (( (<= y 0))) ) false)
+  ((let (( (<= z 0))) ) true)
+  ((let (( (<= w 0))) ) true) )
+( ((let (( (<= x 0))) ) false)
+  ((let (( (<= y 0))) ) true)
+  ((let (( (<= z 0))) ) true)
+  ((let (( (<= w 0))) ) true) )
+sat

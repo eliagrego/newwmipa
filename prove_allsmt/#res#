@@ -1,0 +1,12 @@
+
+(  (<= w 0) false) )
+(  (<= z 0) false)
+   (<= w 0) true) )
+(  (<= y 0) false)
+   (<= z 0) true)
+   (<= w 0) true) )
+(  (<= x 0) false)
+   (<= y 0) true)
+   (<= z 0) true)
+   (<= w 0) true) )
+sat

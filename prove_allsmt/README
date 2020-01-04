@@ -1,0 +1,4 @@
+Call formulas as:
+
+./mathsat_unrestricted -dpll.allsat_minimize_model=true -dpll.allsat_allow_duplicates=false -preprocessor.toplevel_propagation=false -preprocessor.simplification=0 < prova1_bis.smt2
+
