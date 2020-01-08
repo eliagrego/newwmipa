@@ -1,6 +1,0 @@
-(declare-fun x () Int)
-(declare-fun a () Bool)
-(assert (= (> x 0) a))
-(assert (or a))
-(check-allsat (a b c d))
-(exit)
